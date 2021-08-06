@@ -3,6 +3,14 @@
   --branco: #fff;
   --cinza: #909090;
   --preto: #202020;
+  
   --familia-corpo: 'Montserrat', sans-serif;
+  --familia-titulo-destaque: 'Elsie Swash Caps', Serif;
+  
+  --peso-titulo-destaque: 900;
+  --peso-botao: 700;
+
   --tamanho-corpo: 1rem;
+  --tamanho-titulo: 1.375rem;
+  --tamanho-titulo-destaque: 2rem;
 }

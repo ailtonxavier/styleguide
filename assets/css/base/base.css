@@ -2,13 +2,39 @@
 @import url('./_reset.css');
 
 body {
-  font-family: var(--familia-corpo);
-  font-size: var(--tamanho-corpo);
   background: url('../../img/fundo_textura.png'), url('../../img/fundo_linhas.png');
   background-position: center;
+  color: var(--cinza);
+  font-family: var(--familia-corpo);
+  font-size: var(--tamanho-corpo);
 }
 
 .container {
   padding-left: 1rem;
-  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.titulo {
+  color: var(--tamanho-titulo);
+}
+
+.titulo_destaque {
+  color: var(--preto);
+  display: block;
+  font-family: var(--familia-titulo-destaque);
+  font-size: var(--tamanho-titulo-destaque);
+  font-weight: var(--peso-titulo-destaque);
+  margin: .75rem 0;
+}
+
+.alinhamento_esquerda {
+  text-align: left;
+}
+
+.alinhamento_centralizado {
+  text-align: center;
+}
+
+.texto {
+  line-height: 26px;
 }
